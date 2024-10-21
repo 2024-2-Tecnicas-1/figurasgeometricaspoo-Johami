@@ -3,16 +3,19 @@ public class Rectangulo extends FigurasGeometricas {
     private double lado1;
     private double lado2;
     
+      //Complejidad temporal: Tiempo Constante O(1) 
     public Rectangulo(String nombre, String color, double lado1, double lado2) {
         super(nombre, color);
         this.lado1 = lado1;
         this.lado2 = lado2; 
     }
     
+      //Complejidad temporal: Tiempo Constante O(1) 
     public double obtenerArea(){
         return lado1*lado2;
     }
     
+      //Complejidad temporal: Tiempo Constante O(1) 
     public double obtenerPerimetro(){
         return 2 * (lado1 + lado2);
     }

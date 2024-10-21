@@ -3,6 +3,8 @@ package com.mycompany.figurasgeometricas;
 import java.util.Scanner;
 
 public class Principal {
+    
+    //Complejidad temporal: Tiempo Constante O(1) 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
